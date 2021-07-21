@@ -21,7 +21,9 @@ public class UD9_Ej1_App {
 		Diccionario[8]=new Television (100,"Morado","F",19, 50, false);
 		Diccionario[9]=new Electrodomesticos (100,"Morado","F",19);
 		
-		System.out.print(Diccionario[8]);
+		for (int i=0; i <Diccionario.length; i++) {
+			System.out.println(Diccionario[i]);
+		}
 		
 	
 		
